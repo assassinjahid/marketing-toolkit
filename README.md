@@ -26,6 +26,8 @@ python3 analyse.py
 
 Python 3 is the only requirement. The script reads the supplied CSV files and prints campaign costs, grouped results, currency conversion and per-unit price spreads. It does not connect to an ad account or require credentials.
 
+For a new report, copy the headers from report-template.csv into campaign-summary.csv and supply your own campaign-level records. Supported currencies are BDT and USD. Review the historical conversion rate before reusing the script for another period. The script rejects unsupported currencies, duplicate campaign keys and several invalid input types; it cannot determine whether your source selection or attribution is correct.
+
 ## Evidence at a glance
 
 - June–July 2024: BDT 4,871.11 spent; 965 Facebook likes attributed across two campaigns.
@@ -37,5 +39,7 @@ The case study includes the source workbooks and reviewed creative examples. It 
 ## Use and authorship
 
 Jahid confirms ownership of ClypChip and responsibility for its campaigns and creative work. Product trademarks and underlying product imagery belong to their respective rights holders. No open-source or commercial reuse licence is granted for the brand assets. The CSV template and planning prompts were prepared for this portfolio and can be adapted for personal learning with attribution.
+
+The Python implementation and reporting resources were prepared for this retrospective portfolio. Their presence does not imply that Python was used to manage the original campaigns.
 
 [Profile](https://github.com/assassinjahid) · [Teaching portfolio](https://github.com/assassinjahid/digital-marketing-teaching) · [Project overviews](https://github.com/assassinjahid/digital-marketing-case-studies) · [LinkedIn](https://www.linkedin.com/in/jahid-akash/)
